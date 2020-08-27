@@ -10,11 +10,11 @@
 //dichiarazione e assegnazione funzione
  var str = word;
  console.log(str);
- str = checkPalindrom(str);
+ str = invertWord(str);
  console.log(str);
  
  //funzione converti e inverti parola 
- function checkPalindrom (str) {
+ function invertWord (str) {
     return str == str.split('').reverse().join('');
   }
 
